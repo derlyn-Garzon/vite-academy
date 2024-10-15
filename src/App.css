@@ -1,0 +1,244 @@
+body{
+  color: #4B4B4B;
+}
+#root {
+  max-width: 100%;
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+a.custom-link {
+  color: #4B4B4B; /* Color personalizado */
+  text-decoration: none; /* Elimina el subrayado si es necesario */
+}
+
+.fix-bot {
+  position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    margin-bottom: 40px;
+}
+
+.logos{
+   text-align: center;
+   font-family:Inter;
+}
+
+.logosIma{
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.divLogoIma{
+  text-align: center;
+  width: 15%;
+  height: 30%;
+  overflow: hidden;
+  display: inline-flex;  
+}
+
+.Input{
+  border-radius: 16px;
+  border: solid 1px #A2C3FC;
+  width: 100%;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  padding:15px;
+  box-sizing: border-box;
+  margin-top:20px;
+  font-family: Inter;
+  color:#4B4B4B;
+}
+
+.codePhone{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 3 columnas */
+  gap: 20px; /* Sin espacio entre botones */
+  width: 100%; /* Ocupa el 100% del ancho del viewport */
+  padding: 50px;
+  box-sizing: border-box;
+  margin-top:10;
+}
+
+.codePhone input{
+  text-align: center;
+  width: 100%;
+  border-radius: 16px;
+  border: solid 1px #A2C3FC;
+  background-color: #fff;
+  color:#4B4B4B;
+  font-family: Inter;
+  font-size: 36px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 36px;
+}
+
+.codePhone input:focus,
+.codePhone input:active {
+  border: 1px solid transparent; /* Sin borde visible al hacer clic */
+  box-shadow: none; /* Sin sombra por defecto */
+  background-color: white; /* Mantener fondo blanco */
+}
+
+/* Eliminar resaltado al mantener presionado */
+.codePhone input:active {
+  background-color: white; /* Asegura que el fondo sea blanco */
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+  gap: 0; /* Sin espacio entre botones */
+  width: 100%; /* Ocupa el 100% del ancho del viewport */
+  margin: 0; /* Sin márgenes */
+  border: 1px solid #CCCCCC; /* Borde de 1px alrededor del teclado */
+  position: fixed;
+  bottom:0px;
+}
+
+/* Ajustar los botones para que ocupen todo el espacio disponible y eliminar bordes redondeados */
+.keyboard button {
+  padding: 20px;
+  font-size: 36px; /* Tamaño de fuente de 36px */
+  text-align: center;
+  width: 100%; /* Hace que cada botón ocupe el ancho disponible en la columna */
+  height: 80px; /* Altura fija menor al 100% */
+  margin: 0; /* Sin márgenes */
+  border-radius: 0; /* Sin bordes redondeados */
+  border: 1px solid #CCCCCC; /* Borde de 1px para cada botón */
+  background-color: white; /* Fondo blanco para los botones */
+  color: #4B4B4B; /* Color del texto negro */
+}
+
+/* Eliminar borde y resaltado al hacer clic */
+.keyboard button:focus,
+.keyboard button:active {
+  border: 1px solid transparent; /* Sin borde visible al hacer clic */
+  box-shadow: none; /* Sin sombra por defecto */
+  background-color: white; /* Mantener fondo blanco */
+}
+
+/* Eliminar resaltado al mantener presionado */
+.keyboard button:active {
+  background-color: white; /* Asegura que el fondo sea blanco */
+}
+
+
+/**/
+.headerLand{
+  width:100%;
+  background: linear-gradient(to right, rgb(191, 195, 252), rgb(162, 195, 252));
+  border-radius:0px 0px 20px 20px;
+  position: fixed;
+  top: 0px;
+  left:0px;
+  padding:10px 20px;
+  padding-bottom:40px;
+  
+  box-sizing: border-box;
+
+}
+
+.bodyTopp{
+  place-items: flex-start;
+   min-width: auto;
+}
+
+.headergrid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 2 columnas */
+  gap: 0; /* Sin espacio entre botones */
+  width: 100%; /* Ocupa el 100% del ancho del viewport */
+  margin: 0; /* Sin márgenes */
+}
+
+.notificationGrid{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* 2 columnas */
+  gap: 0; /* Sin espacio entre botones */
+  margin: 0; /* Sin márgenes */
+  text-align: left;
+}
+
+.coinGrid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:0;
+  margin:1px;
+}
+
+.dificultadCursoGrid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+  gap: 30px; /* Sin espacio entre botones */
+  margin: 0; /* Sin márgenes */
+  margin-top: 30px;
+
+}
+
+.cursosTagGrid{
+  background: #eef3fe;/*linear-gradient(to right, #BFC3FC, #A2C3FC);*/
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 2 columnas */
+  gap: 30px; /* Sin espacio entre botones */
+  margin: 0; /* Sin márgenes */
+  box-sizing: border-box;
+  border-radius: 60px;
+  place-items: center;       
+}
+
+.menuBarGrid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 2 columnas */
+  position: fixed;
+  bottom: 0px; 
+  background: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+

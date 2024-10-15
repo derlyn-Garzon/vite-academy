@@ -1,0 +1,540 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Carlos Perez Ramirez",
+      "email": "carlos.perez@example.com",
+      "tel": "+573156781234",
+      "password": "pass123",
+      "terminados": [
+        {
+          "id": "1",
+          "duracion": "50"
+        },
+        {
+          "id": "2",
+          "duracion": "100"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nombre": "Ana Maria Lopez",
+      "email": "ana.lopez@example.com",
+      "tel": "+573156782345",
+      "password": "ana456",
+      "terminados": [
+        {
+          "id": "2",
+          "duracion": "40"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "nombre": "Juan David Rodriguez",
+      "email": "juan.rodriguez@example.com",
+      "tel": "+573156783456",
+      "password": "juan789",
+      "terminados": [
+        {
+          "id": "3",
+          "duracion": "60"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "nombre": "Lucia Gomez Fernandez",
+      "email": "lucia.gomez@example.com",
+      "tel": "+573156784567",
+      "password": "lucia123",
+      "terminados": [
+        {
+          "id": "4",
+          "duracion": "35"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "nombre": "Diego Martinez Suarez",
+      "email": "diego.martinez@example.com",
+      "tel": "+573156785678",
+      "password": "diego456",
+      "terminados": [
+        {
+          "id": "5",
+          "duracion": "70"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "nombre": "Maria Fernanda Gutierrez",
+      "email": "maria.gutierrez@example.com",
+      "tel": "+573156786789",
+      "password": "maria789",
+      "terminados": [
+        {
+          "id": "6",
+          "duracion": "45"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "nombre": "Sebastian Torres Diaz",
+      "email": "sebastian.torres@example.com",
+      "tel": "+573156787890",
+      "password": "sebastian123",
+      "terminados": [
+        {
+          "id": "7",
+          "duracion": "80"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "nombre": "Laura Jimenez Ortiz",
+      "email": "laura.jimenez@example.com",
+      "tel": "+573156788901",
+      "password": "laura456",
+      "terminados": [
+        {
+          "id": "8",
+          "duracion": "55"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "nombre": "Pedro Castillo Vargas",
+      "email": "pedro.castillo@example.com",
+      "tel": "+573156789012",
+      "password": "pedro789",
+      "terminados": [
+        {
+          "id": "9",
+          "duracion": "65"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "nombre": "Carmen Ruiz Ramirez",
+      "email": "carmen.ruiz@example.com",
+      "tel": "+573156781123",
+      "password": "carmen123",
+      "terminados": [
+        {
+          "id": "10",
+          "duracion": "75"
+        }
+      ]
+    },
+    {
+      "id": "34241ff3-0b2d-4f2f-9de4-b1651f8473c4",
+      "nombre": "Laura Perez",
+      "email": "laura.perez@example.com",
+      "password": "281kksksk",
+      "tel": "+573202892838",
+      "terminados": []
+    },
+    {
+      "id": "0322f748-9f69-4135-a873-c48bd58e8418",
+      "nombre": "Laura Parra",
+      "email": "laura.parra@example.com",
+      "password": "dkjd17880",
+      "tel": "+573122671525",
+      "terminados": []
+    }
+  ],
+  "cursos": [
+    {
+      "id": "1",
+      "name": "Introducción a la Programación",
+      "descripcion": "Fundamentos básicos para aprender a programar eficientemente",
+      "imagen": "https://res.cloudinary.com/dckxyabux/image/upload/v1728840057/course4_cbcd96.png",
+      "quiz_id": ["101","102","103"]
+    },
+    {
+      "id": "2",
+      "name": "Desarrollo Web con React",
+      "descripcion": "Aprende a crear aplicaciones web con React.",
+      "imagen": "https://res.cloudinary.com/dckxyabux/image/upload/v1728840057/course4_cbcd96.png"
+    },
+    {
+      "id": "3",
+      "name": "Bases de Datos SQL",
+      "descripcion": "Manejo y gestión de bases de datos relacionales.",
+      "imagen": "https://res.cloudinary.com/dckxyabux/image/upload/v1728840057/course3_vasbyf.png"
+    },
+    {
+      "id": "4",
+      "name": "Machine Learning con Python",
+      "descripcion": "Introducción al aprendizaje automático con Python.",
+      "imagen": "https://res.cloudinary.com/dckxyabux/image/upload/v1728840057/course5_tiorff.png"
+    },
+    {
+      "id": "5",
+      "name": "Desarrollo de Apps Móviles",
+      "descripcion": "Crea aplicaciones móviles para Android e iOS.",
+      "imagen": "https://res.cloudinary.com/dckxyabux/image/upload/v1728840057/course6_jkl012.png"
+    },
+    {
+      "id": "6",
+      "name": "Diseño UX/UI",
+      "descripcion": "Principios de diseño de interfaces y experiencia de usuario.",
+      "imagen": "https://res.cloudinary.com/dckxyabux/image/upload/v1728840057/course1_pxouww.png"
+    },
+    {
+      "id": "7",
+      "name": "Inteligencia Artificial Aplicada",
+      "descripcion": "Uso de IA en aplicaciones reales.",
+      "imagen": "https://res.cloudinary.com/dckxyabux/image/upload/v1728840057/course1_pxouww.png"
+    },
+    {
+      "id": "8",
+      "name": "Ciberseguridad para Principiantes",
+      "descripcion": "Conceptos básicos de seguridad informática y protección.",
+      "imagen": "https://res.cloudinary.com/dckxyabux/image/upload/v1728840057/course3_vasbyf.png"
+    },
+    {
+      "id": "9",
+      "name": "Automatización de Procesos con Python",
+      "descripcion": "Automatiza tareas comunes usando Python.",
+      "imagen": "https://res.cloudinary.com/dckxyabux/image/upload/v1728840057/course3_vasbyf.png"
+    },
+    {
+      "id": "10",
+      "name": "Fundamentos de DevOps",
+      "descripcion": "Aprende los conceptos clave de DevOps y CI/CD.",
+      "imagen": "https://res.cloudinary.com/dckxyabux/image/upload/v1728840057/course2_cbor8b.png"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "101",
+      "curso_id": "1",
+      "preguntas": [
+        {
+          "id": "1",
+          "texto": "¿Qué es una variable en programación?",
+          "opciones": [
+            { "id": "1", "texto": "Una caja que almacena datos", "correcta": true },
+            { "id": "2", "texto": "Un ciclo en un programa", "correcta": false },
+            { "id": "3", "texto": "Una función que ejecuta un código", "correcta": false },
+            { "id": "4", "texto": "Un bloque de texto", "correcta": false }
+          ]
+        },
+        {
+          "id": "2",
+          "texto": "¿Qué símbolo se utiliza para asignar valor a una variable?",
+          "opciones": [
+            { "id": "1", "texto": "=", "correcta": true },
+            { "id": "2", "texto": "==", "correcta": false },
+            { "id": "3", "texto": ":", "correcta": false },
+            { "id": "4", "texto": "->", "correcta": false }
+          ]
+        },
+        {
+          "id": "3",
+          "texto": "¿Cuál de estos tipos de datos es correcto en la mayoría de los lenguajes?",
+          "opciones": [
+            { "id": "1", "texto": "Entero", "correcta": true },
+            { "id": "2", "texto": "Texto fijo", "correcta": false },
+            { "id": "3", "texto": "Código", "correcta": false },
+            { "id": "4", "texto": "Mensaje", "correcta": false }
+          ]
+        },
+        {
+          "id": "4",
+          "texto": "¿Qué es un bucle en programación?",
+          "opciones": [
+            { "id": "1", "texto": "Una estructura que repite acciones", "correcta": true },
+            { "id": "2", "texto": "Una forma de detener el código", "correcta": false },
+            { "id": "3", "texto": "Una variable que cambia de valor", "correcta": false },
+            { "id": "4", "texto": "Un operador matemático", "correcta": false }
+          ]
+        },
+        {
+          "id": "5",
+          "texto": "¿Qué palabra clave inicia un bucle en la mayoría de lenguajes?",
+          "opciones": [
+            { "id": "1", "texto": "for", "correcta": true },
+            { "id": "2", "texto": "loop", "correcta": false },
+            { "id": "3", "texto": "begin", "correcta": false },
+            { "id": "4", "texto": "while", "correcta": true }
+          ]
+        },
+        {
+          "id": "6",
+          "texto": "¿Qué es una función en programación?",
+          "opciones": [
+            { "id": "1", "texto": "Un bloque de código reutilizable", "correcta": true },
+            { "id": "2", "texto": "Un tipo de dato", "correcta": false },
+            { "id": "3", "texto": "Un ciclo dentro de otro", "correcta": false },
+            { "id": "4", "texto": "Una variable que se pasa a un bucle", "correcta": false }
+          ]
+        },
+        {
+          "id": "7",
+          "texto": "¿Qué es una estructura condicional?",
+          "opciones": [
+            { "id": "1", "texto": "Una instrucción que toma decisiones", "correcta": true },
+            { "id": "2", "texto": "Un tipo de bucle", "correcta": false },
+            { "id": "3", "texto": "Una función dentro de otra", "correcta": false },
+            { "id": "4", "texto": "Un valor asignado a una variable", "correcta": false }
+          ]
+        },
+        {
+          "id": "8",
+          "texto": "¿Qué palabra clave se utiliza para una condición en muchos lenguajes?",
+          "opciones": [
+            { "id": "1", "texto": "if", "correcta": true },
+            { "id": "2", "texto": "loop", "correcta": false },
+            { "id": "3", "texto": "try", "correcta": false },
+            { "id": "4", "texto": "var", "correcta": false }
+          ]
+        },
+        {
+          "id": "9",
+          "texto": "¿Qué operador lógico se usa para verificar si dos valores son iguales?",
+          "opciones": [
+            { "id": "1", "texto": "==", "correcta": true },
+            { "id": "2", "texto": "=", "correcta": false },
+            { "id": "3", "texto": "!=", "correcta": false },
+            { "id": "4", "texto": "&&", "correcta": false }
+          ]
+        },
+        {
+          "id": "10",
+          "texto": "¿Cuál es el propósito de un else en una estructura condicional?",
+          "opciones": [
+            { "id": "1", "texto": "Ejecutar un código cuando la condición es falsa", "correcta": true },
+            { "id": "2", "texto": "Finalizar un bucle", "correcta": false },
+            { "id": "3", "texto": "Asignar un valor a una variable", "correcta": false },
+            { "id": "4", "texto": "Repetir un código indefinidamente", "correcta": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "curso_id": "1",
+      "preguntas": [
+        {
+          "id": "1",
+          "texto": "¿Qué es un algoritmo en programación?",
+          "opciones": [
+            { "id": "1", "texto": "Una secuencia de pasos para resolver un problema", "correcta": true },
+            { "id": "2", "texto": "Una estructura de datos", "correcta": false },
+            { "id": "3", "texto": "Un lenguaje de programación", "correcta": false },
+            { "id": "4", "texto": "Un bucle que se repite", "correcta": false }
+          ]
+        },
+        {
+          "id": "2",
+          "texto": "¿Qué es un lenguaje de alto nivel en programación?",
+          "opciones": [
+            { "id": "1", "texto": "Un lenguaje que se asemeja al lenguaje humano", "correcta": true },
+            { "id": "2", "texto": "Un lenguaje usado solo para matemáticas", "correcta": false },
+            { "id": "3", "texto": "Un lenguaje que usa números y operaciones", "correcta": false },
+            { "id": "4", "texto": "Un lenguaje difícil de entender", "correcta": false }
+          ]
+        },
+        {
+          "id": "3",
+          "texto": "¿Qué es una constante en programación?",
+          "opciones": [
+            { "id": "1", "texto": "Un valor que no cambia durante la ejecución", "correcta": true },
+            { "id": "2", "texto": "Una variable que cambia continuamente", "correcta": false },
+            { "id": "3", "texto": "Un bucle que se ejecuta infinitamente", "correcta": false },
+            { "id": "4", "texto": "Un tipo de función", "correcta": false }
+          ]
+        },
+        {
+          "id": "4",
+          "texto": "¿Qué significa 'compilar' un programa?",
+          "opciones": [
+            { "id": "1", "texto": "Convertir código fuente a lenguaje de máquina", "correcta": true },
+            { "id": "2", "texto": "Escribir el código del programa", "correcta": false },
+            { "id": "3", "texto": "Ejecutar un programa paso a paso", "correcta": false },
+            { "id": "4", "texto": "Depurar errores en el programa", "correcta": false }
+          ]
+        },
+        {
+          "id": "5",
+          "texto": "¿Qué estructura de control permite elegir entre varias opciones?",
+          "opciones": [
+            { "id": "1", "texto": "Switch", "correcta": true },
+            { "id": "2", "texto": "If", "correcta": false },
+            { "id": "3", "texto": "While", "correcta": false },
+            { "id": "4", "texto": "For", "correcta": false }
+          ]
+        },
+        {
+          "id": "6",
+          "texto": "¿Qué palabra clave se utiliza para declarar una función en muchos lenguajes?",
+          "opciones": [
+            { "id": "1", "texto": "function", "correcta": true },
+            { "id": "2", "texto": "def", "correcta": true },
+            { "id": "3", "texto": "create", "correcta": false },
+            { "id": "4", "texto": "declare", "correcta": false }
+          ]
+        },
+        {
+          "id": "7",
+          "texto": "¿Qué operador se utiliza para sumar dos valores en la mayoría de los lenguajes?",
+          "opciones": [
+            { "id": "1", "texto": "+", "correcta": true },
+            { "id": "2", "texto": "-", "correcta": false },
+            { "id": "3", "texto": "=", "correcta": false },
+            { "id": "4", "texto": "*", "correcta": false }
+          ]
+        },
+        {
+          "id": "8",
+          "texto": "¿Qué palabra clave se usa para declarar una variable en JavaScript?",
+          "opciones": [
+            { "id": "1", "texto": "let", "correcta": true },
+            { "id": "2", "texto": "int", "correcta": false },
+            { "id": "3", "texto": "var", "correcta": true },
+            { "id": "4", "texto": "new", "correcta": false }
+          ]
+        },
+        {
+          "id": "9",
+          "texto": "¿Qué es una lista en Python?",
+          "opciones": [
+            { "id": "1", "texto": "Una colección ordenada y mutable de elementos", "correcta": true },
+            { "id": "2", "texto": "Un tipo de bucle", "correcta": false },
+            { "id": "3", "texto": "Un solo valor", "correcta": false },
+            { "id": "4", "texto": "Una función que devuelve múltiples valores", "correcta": false }
+          ]
+        },
+        {
+          "id": "10",
+          "texto": "¿Qué es un IDE en programación?",
+          "opciones": [
+            { "id": "1", "texto": "Un entorno de desarrollo integrado", "correcta": true },
+            { "id": "2", "texto": "Un lenguaje de programación", "correcta": false },
+            { "id": "3", "texto": "Un conjunto de datos", "correcta": false },
+            { "id": "4", "texto": "Una estructura de control", "correcta": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "curso_id": "1",
+      "preguntas": [
+        {
+          "id": "1",
+          "texto": "¿Cuál es el propósito principal de un bucle 'for' en programación?",
+          "opciones": [
+            { "id": "1", "texto": "Repetir un bloque de código un número fijo de veces", "correcta": true },
+            { "id": "2", "texto": "Ejecutar código hasta que una condición sea verdadera", "correcta": false },
+            { "id": "3", "texto": "Definir una variable", "correcta": false },
+            { "id": "4", "texto": "Almacenar datos", "correcta": false }
+          ]
+        },
+        {
+          "id": "2",
+          "texto": "¿Qué significa 'debugging' en el contexto de la programación?",
+          "opciones": [
+            { "id": "1", "texto": "Detectar y corregir errores en el código", "correcta": true },
+            { "id": "2", "texto": "Escribir nuevos programas", "correcta": false },
+            { "id": "3", "texto": "Compilar un programa", "correcta": false },
+            { "id": "4", "texto": "Optimizar el rendimiento del código", "correcta": false }
+          ]
+        },
+        {
+          "id": "3",
+          "texto": "¿Qué tipo de estructura de datos se utiliza para almacenar pares clave-valor?",
+          "opciones": [
+            { "id": "1", "texto": "Diccionario", "correcta": true },
+            { "id": "2", "texto": "Lista", "correcta": false },
+            { "id": "3", "texto": "Conjunto", "correcta": false },
+            { "id": "4", "texto": "Tupla", "correcta": false }
+          ]
+        },
+        {
+          "id": "4",
+          "texto": "¿Qué palabra clave se usa para declarar una constante en JavaScript?",
+          "opciones": [
+            { "id": "1", "texto": "const", "correcta": true },
+            { "id": "2", "texto": "let", "correcta": false },
+            { "id": "3", "texto": "var", "correcta": false },
+            { "id": "4", "texto": "final", "correcta": false }
+          ]
+        },
+        {
+          "id": "5",
+          "texto": "¿Qué es la recursividad en programación?",
+          "opciones": [
+            { "id": "1", "texto": "Una función que se llama a sí misma", "correcta": true },
+            { "id": "2", "texto": "Un bucle infinito", "correcta": false },
+            { "id": "3", "texto": "Un tipo de variable", "correcta": false },
+            { "id": "4", "texto": "Un tipo de estructura de datos", "correcta": false }
+          ]
+        },
+        {
+          "id": "6",
+          "texto": "¿Qué es un 'array' en programación?",
+          "opciones": [
+            { "id": "1", "texto": "Una estructura de datos que almacena múltiples valores en un solo lugar", "correcta": true },
+            { "id": "2", "texto": "Una función que devuelve varios valores", "correcta": false },
+            { "id": "3", "texto": "Un valor numérico constante", "correcta": false },
+            { "id": "4", "texto": "Un operador lógico", "correcta": false }
+          ]
+        },
+        {
+          "id": "7",
+          "texto": "¿Qué estructura de control se usa para ejecutar diferentes bloques de código basados en varias condiciones?",
+          "opciones": [
+            { "id": "1", "texto": "If-Else", "correcta": true },
+            { "id": "2", "texto": "For", "correcta": false },
+            { "id": "3", "texto": "While", "correcta": false },
+            { "id": "4", "texto": "Try-Catch", "correcta": false }
+          ]
+        },
+        {
+          "id": "8",
+          "texto": "¿Cuál es la diferencia principal entre 'let' y 'var' en JavaScript?",
+          "opciones": [
+            { "id": "1", "texto": "'let' tiene un alcance de bloque, mientras que 'var' tiene un alcance de función", "correcta": true },
+            { "id": "2", "texto": "'let' es usado solo para constantes", "correcta": false },
+            { "id": "3", "texto": "'var' es más rápido que 'let'", "correcta": false },
+            { "id": "4", "texto": "'let' es usado solo dentro de funciones", "correcta": false }
+          ]
+        },
+        {
+          "id": "9",
+          "texto": "¿Qué es el Pseudocódigo?",
+          "opciones": [
+            { "id": "1", "texto": "Una descripción de algoritmos en lenguaje natural", "correcta": true },
+            { "id": "2", "texto": "Un código que solo las máquinas entienden", "correcta": false },
+            { "id": "3", "texto": "Un lenguaje de programación específico", "correcta": false },
+            { "id": "4", "texto": "Un código que no compila", "correcta": false }
+          ]
+        },
+        {
+          "id": "10",
+          "texto": "¿Qué operador se usa para comparar dos valores en la mayoría de los lenguajes?",
+          "opciones": [
+            { "id": "1", "texto": "==", "correcta": true },
+            { "id": "2", "texto": "+", "correcta": false },
+            { "id": "3", "texto": "-", "correcta": false },
+            { "id": "4", "texto": "*", "correcta": false }
+          ]
+        }
+      ]
+    }
+  ]
+
+  
+
+}
